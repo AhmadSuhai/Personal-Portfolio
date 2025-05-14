@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhail Ahmad</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/2621fe98f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo" width="50px" height="50px">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Skills</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Computer Science Student</p>
+        <h1>Hi, I'm <span>Suhail</span><br> Ahmad From India</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= About ======= -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/bg_1.png" alt="" width="1000px" height="600px">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a Computer Science graduate with a strong foundation in core subjects and a passion for turning data into actionable insights. I have developed solid skills in SQL, Python, Excel, and Power BI. During my internship at Forge, I worked on a real-world data analysis project.</p>
+          
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+            <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Data Analyst</span><br>Analyzing and Visualizing Data</li>
+              <li><span>SQL</span><br>Database Management</li>
+              <li><span>Python</span><br>Data Processing & Scripting</li>
+              <li><span>Power BI</span><br>Building Interactive Dashboards</li>
+              <li><span> Excel </span><br>Building Insights </li>
+
+
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>2023</span><br>Internship at Accenture: Data Analysis Project</li>
+              <a href="https://github.com/AhmadSuhai/Data-Analytics-and-Visualization-Job-Simulation-Accenture-Internship">Learn more</a>
+              <li><span>2022</span><br>Personal Projects using SQL & Power BI</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2020 - present</span><br>B.E from SRM Easwari Engineering College</li>
+              <li><span>2018</span><br>12th from Govt HSS Tawkwangam Shopian</li>
+              <li><span>2016</span><br>10th from Army Goodwill School Ahgam Shopian</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Skills ======= -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Skills</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>🔍 Data Analysis</h2>
+          <p>Data Analysis is the process of examining, cleaning, transforming, and modeling data.</p>
+          <a href="https://www.datacamp.com/blog/what-is-data-analysis-expert-guide">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>📊 Dashboard Building</h2>
+          <p>Dashboards display key metrics and help in data-driven decisions.</p>
+          <a href="https://www.domo.com/learn/article/how-to-build-an-analytics-dashboard#:~:text=A%20common%20strategy%20for%20arranging,'line'%20of%20the%20dashboard.">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>🐍 Python</h2>
+            <p>I use Python for data cleaning, analysis, and visualization. With libraries like Pandas, NumPy, Matplotlib, and Seaborn, I perform Exploratory Data Analysis (EDA), automate tasks, and uncover patterns and insights from raw data..</p>
+            <a href="https://www.python.org/">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>🧮 SQL</h2>
+            <p>Proficient in writing SQL queries to extract, filter, and join data from relational databases. I use SQL for data wrangling, reporting, and to support analysis by working with complex subqueries, aggregations, and window functions..</p>
+            <a href="https://www.w3schools.com/sql/">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>📊 Power BI</h2>
+            <p>I build interactive and visually appealing dashboards using Power BI. Skilled in data modeling, DAX formulas, Power Query, and creating reports that help in business decision-making and trend analysis.</p>
+            <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>. 📈 Excel </h2>
+            <p>Experienced in using Excel for quick analysis, creating dashboards, and managing datasets using Pivot Tables, VLOOKUP, charts, and advanced formulas. Also familiar with Excel automation using macros and Power Query.</p>
+            <a href="https://www.microsoft.com/en-in/microsoft-365/excel">Learn more</a>
+          </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>🔬 Exploratory Data Analysis (EDA)</h2>
+          <p>EDA helps to understand patterns, anomalies, and data structure.</p>
+          <a href="https://www.ibm.com/think/topics/exploratory-data-analysis">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Portfolio ======= -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.jpg" width="400px" height="400px">
+          <div class="layer">
+            <h3>Sales Insights Project</h3>
+            <p>A hardware company needs insights; use SQL and Power BI to analyze sales data and build a dashboard..</p>
+            <a href="https://github.com/AhmadSuhai/Sales-Insights-Project" target="_blank">
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+              
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.jpg" width="300px" height="400px">
+          <div class="layer">
+            <h3>Bank-Loan-Insights--Data-Analysis</h3>
+            <p>Analyze bank loan data using categories like Good/Bad and statuses like Fully Paid or Charged Off to assess performance and trends..</p>
+            <a href="https://github.com/AhmadSuhai/Bank-Loan-Insights--Data-Analysis"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+       
+          <div class="work">
+          <img src="Dashboard - Social Buzz.png" width="300px" height="400px">
+          <div class="layer">
+            <h3>Data Analytics & Visualization (Forage)</h3>
+            <p>Social Buzz, a growing social media startup, partners with Accenture to audit data practices, recommend IPO strategies, and analyze top content categories..</p>
+            <a href="https://github.com/AhmadSuhai/Data-Analytics-and-Visualization-Job-Simulation-Accenture-Internship"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.jpg" width="400px" height="400px">
+          <div class="layer">
+            <h3>python-Data-Analysis-Project-</h3>
+            <p>python-Data-Analysis-Project-.</p>
+            <a href="https://github.com/AhmadSuhai/python-Data-Analysis-Project-"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/AhmadSuhai" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- ======= Contact ======= -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i> Suhailahdar68@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i> 8493041345</p>
+          <p><i class="fas fa-phone-square-alt"></i>LinkedIn</p> <a href="https://www.linkedin.com/in/suhail-ahmad-a8232922a/"></a>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-quora"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @Suhail | Made with <i class="fa-solid fa-heart"></i> by Suhail Ahmad</p>
+    </div>
+  </div>
+
+  <!-- ======= Scripts ======= -->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname) {
+      for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemeu.style.right = "0";
+    }
+    function closemenu() {
+      sidemeu.style.right = "-200px";
+    }
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyc3tbev2x3vhaqBh7Aa_WL7RWQlrZr5U5gsOzA5dtD7Xy_lPWdA7bHa3o-HrdX8s54/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully";
+          setTimeout(() => msg.innerHTML = "", 5000);
+          form.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+  </script>
+
+</body>
+</html>
